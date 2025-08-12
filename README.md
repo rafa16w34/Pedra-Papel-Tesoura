@@ -1,10 +1,3 @@
 # Pedra-Papel-Tesoura
-Depois eu volto para arrumar o código
 
-
-# Alura Imersao Dev 2025
-
-A Pen created on CodePen.
-
-Original URL: [https://codepen.io/Rafael-Alves-the-vuer/pen/NPWJapy](https://codepen.io/Rafael-Alves-the-vuer/pen/NPWJapy).
-
+Código de um simples jogo de pedra, papel e tesoura criado durante as aulas na Imersão Dev 2025 da Alura.
