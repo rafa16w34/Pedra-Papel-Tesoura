@@ -16,37 +16,37 @@ alert("44/3")*/
 //AULA 2
 //idade = prompt ("Quanto anos voce tem?");
 //if (idade >= 18){
-  //alert("Seja bem vindo!");
-  //jogador = prompt("Digite 1-Pedra, 2-papel ou 3-tesoura?");
-  //computador = Math.floor(Math.random()*3) +1 ;
+  alert("Seja bem vindo!");
+  jogador = prompt("Digite 1-Pedra, 2-papel ou 3-tesoura?");
+  computador = Math.floor(Math.random()*3) +1 ;
   //empate
-  //if (jogador == computador){
-    //alert("Empate");
-  //}
+  if (jogador == computador){
+    alert("Empate");
+  }
   //pedra e tesoura
-  //else if (jogador == 1 && computador ==3){
-    //alert("Voce ganhou");
-  //}
+  else if (jogador == 1 && computador ==3){
+    alert("Voce ganhou");
+  }
   //pedra e papel
-  //else if (jogador == 1 && computador ==2){
-    //alert("Voce perdeu");
-  //}
+  else if (jogador == 1 && computador ==2){
+    alert("Voce perdeu");
+  }
   //tesoura e papel
-  //else if (jogador == 3 && computador ==2){
-    //alert("Voce ganhou");
-  //}
+  else if (jogador == 3 && computador ==2){
+    alert("Voce ganhou");
+  }
   //tesoura e pedra
-  //else if (jogador == 3 && computador ==1){
-    //alert("Voce perdeu");
-  //}
+  else if (jogador == 3 && computador ==1){
+    alert("Voce perdeu");
+  }
   //papel e pedra
-  //else if (jogador == 2 && computador ==1){
-    //alert("Voce ganhou");
-  //}
+  else if (jogador == 2 && computador ==1){
+    alert("Voce ganhou");
+  }
   //papel e tesoura
-  //else if (jogador == 2 && computador ==3){
-    //alert("Voce perdeu");
-  //}
+  else if (jogador == 2 && computador ==3){
+    alert("Voce perdeu");
+  }
 //}
 
 //AULA 3
@@ -72,25 +72,25 @@ alert("44/3")*/
 
 
 //AULA 4
-personagem = ["","",""];
-viloes = ["","",""];
+//personagem = ["","",""];
+//viloes = ["","",""];
 
-forcaPersonagem = 0;
-forcaViloes = 0;
+//forcaPersonagem = 0;
+//forcaViloes = 0;
 
-alert("O array Personagem é: " + personagem);
+//alert("O array Personagem é: " + personagem);
 
-for(let i = 0; i < 3; i++){
-  escolhaPersonagem = prompt("Digite o nome do personagem " + (i +1));
-  personagem[i] = escolhaPersonagem;
-}
+//for(let i = 0; i < 3; i++){
+  //escolhaPersonagem = prompt("Digite o nome do personagem " + (i +1));
+  //personagem[i] = escolhaPersonagem;
+//}
 
-console.log("players:" + personagem);
+//console.log("players:" + personagem);
 
-for(let i = 0; i < 3; i++){
-  IndiceAleatorio = Math.floor(Math.random() *5);
-  viloesPossiveis = ["greens","grays","reds","goombas","bowser"];
-  viloes[i] = viloesPossiveis[IndiceAleatorio];
+//for(let i = 0; i < 3; i++){
+  //IndiceAleatorio = Math.floor(Math.random() *5);
+  //viloesPossiveis = ["greens","grays","reds","goombas","bowser"];
+  //viloes[i] = viloesPossiveis[IndiceAleatorio];
   
-}
-console.log("viloes:" + viloes);
+//}
+//console.log("viloes:" + viloes);
