@@ -16,38 +16,70 @@ alert("44/3")*/
 //AULA 2
 //idade = prompt ("Quanto anos voce tem?");
 //if (idade >= 18){
-  alert("Seja bem vindo!");
-  jogador = prompt("Digite 1-Pedra, 2-papel ou 3-tesoura?");
+
+//----------------------------------------------------------------------------------------------------
+
+alert("Seja bem vindo!");
+
+let sair = false;
+
+while(!sair){
+  
+  while (true){
+    jogador = prompt("Escolha uma das oções abaixo para jogar:1-Pedra 2-papel 3-tesoura 0- sair");
+
+
+    // Cancelou
+    if (jogador === null || jogador.trim() === "") {
+      alert("Resposta obrigatória!");
+      continue;
+    }
+
+    jogador = Number(jogador);
+
+    //---------------------------------------------------------------------------------------------------
+
+    if (isNaN(jogador)) {//Se digitar algo que não seja número
+      alert("Digite apenas números!");
+      continue
+    }
+
+    if (jogador < 0 || jogador > 3) {//Digitou uma opção não válida
+      alert("Digite uma opção válida!");
+      continue;
+    }
+
+    break;
+    
+  }
+    
+  if (jogador == 0) {//Para sair
+    sair = true;
+    alert("Saindo do jogo...");
+    break;
+  }
+
+  
+  
+  //--------------------------------------------------------------------------------------------------
+  
   computador = Math.floor(Math.random()*3) +1 ;
+  
   //empate
   if (jogador == computador){
     alert("Empate");
   }
   //pedra e tesoura
-  else if (jogador == 1 && computador ==3){
+  else if ((jogador == 1 && computador ==3) || (jogador == 3 && computador ==2) || (jogador == 2 && computador ==1)){
     alert("Voce ganhou");
-  }
-  //pedra e papel
-  else if (jogador == 1 && computador ==2){
+    
+  } 
+  else{
     alert("Voce perdeu");
   }
-  //tesoura e papel
-  else if (jogador == 3 && computador ==2){
-    alert("Voce ganhou");
-  }
-  //tesoura e pedra
-  else if (jogador == 3 && computador ==1){
-    alert("Voce perdeu");
-  }
-  //papel e pedra
-  else if (jogador == 2 && computador ==1){
-    alert("Voce ganhou");
-  }
-  //papel e tesoura
-  else if (jogador == 2 && computador ==3){
-    alert("Voce perdeu");
-  }
-//}
+}
+
+//---------------------------------------------------------------------------------------------------------------------------------
 
 //AULA 3
 //rodada = 1;
