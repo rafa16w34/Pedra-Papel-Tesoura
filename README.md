@@ -17,7 +17,7 @@ Ao escolher uma opção entre 1 e 3, será sorteado um número para o computador
 Após uma rodada a caixa de texto de seleção voltará a aparecer para que o jogador possa jogar novamente.
 Caso não queira mais jogar, deve se digitar 0 na caixa de texto e então ela se fechará.
 
-#Limitações:
+# Limitações:
 A maior limitação é de essa ser a única interação possível no site, por isso implementações futuras serão necessárias para toran-lo mais interessante.
 
 # Implementações futuras:
