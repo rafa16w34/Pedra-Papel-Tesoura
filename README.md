@@ -4,7 +4,7 @@ Criado por Rafael Alves Faria.
 Consiste num jogo de pedra,papel e tesoura onde se deve escolher uma das opções e então a sorte será decidida.
 O jogo pode ser jogado infintamente até que se decida sair.
 
-[![Meu Vídeo](https://img.youtube.com/vi/3WgrgUEx3Ms&t=9s/mqdefault.jpg)](https://www.youtube.com/watch?v=3WgrgUEx3Ms&t=9s)
+[![Meu Vídeo](https://img.youtube.com/vi/3WgrgUEx3Ms/mqdefault.jpg)](https://www.youtube.com/watch?v=3WgrgUEx3Ms)
 
 ## Como jogar ?
 Ao entrar na página aprecerá uma mensagem de boas vindas na caixa de texto, e depois pedirá para informar uma das opções apresentadas:
